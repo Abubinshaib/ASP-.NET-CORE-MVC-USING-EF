@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP .NET CPRE MVC USING EF", "ASP .NET CPRE MVC USING EF\ASP .NET CPRE MVC USING EF.csproj", "{C3ACC707-2F99-4CFE-8BC3-E0DDCFE7952E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3ACC707-2F99-4CFE-8BC3-E0DDCFE7952E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3ACC707-2F99-4CFE-8BC3-E0DDCFE7952E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3ACC707-2F99-4CFE-8BC3-E0DDCFE7952E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3ACC707-2F99-4CFE-8BC3-E0DDCFE7952E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7B2CAE5-B87E-460C-B9B7-D49AE89CCFCB}
+	EndGlobalSection
+EndGlobal
