@@ -1,6 +1,16 @@
+using ASP_.NET_CPRE_MVC_USING_EF.ApplicationDbContext;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+//Configure the ConnectionString and DbContext class
+builder.Services.AddDbContext<EFCoreDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("EFCoreDBConnection"));
+});
+
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
@@ -22,6 +32,6 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Employees}/{action=Index}/{id?}");
 
 app.Run();
